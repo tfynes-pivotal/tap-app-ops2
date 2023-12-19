@@ -32,7 +32,7 @@ spec:
         carto.run/workload-name: weatherforecaster
     spec:
       containers:
-      - image: harbor.harborlab.fynesy.net/tap/weatherforecaster-default@sha256:74a29e28d0fa528e1e656b3ed376d5d66dc78d89093c30e18cfc7556219c572d
+      - image: harbor.harborlab.fynesy.net/tap/weatherforecaster-default@sha256:e715c04ec48221b0eddb53ef1345c0b6eb136a2e8059e1bbd7d11f0948bea46b
         name: workload
         resources: {}
         securityContext:
