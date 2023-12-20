@@ -10,6 +10,8 @@ metadata:
     app.kubernetes.io/part-of: tdemo1
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     apps.tanzu.vmware.com/workload-type: web
+    tanzu.app.live.view: "true"
+    tanzu.app.live.view.application.name: tdemo1
     app.kubernetes.io/component: run
     carto.run/workload-name: tdemo1
 spec:
